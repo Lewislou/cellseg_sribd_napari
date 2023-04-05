@@ -1,7 +1,5 @@
 # cellseg_sribd_napari
 
-# cellseg-sribd
-
 [![License Apache Software License 2.0](https://img.shields.io/pypi/l/cellseg-sribd.svg?color=green)](https://github.com/githubuser/cellseg-sribd/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/cellseg-sribd.svg?color=green)](https://pypi.org/project/cellseg-sribd)
 
@@ -23,6 +21,9 @@ https://napari.org/stable/plugins/index.html
 
 You can install `cellseg-sribd` via [pip]:
 ```shell
+    conda create -y -n napari-env -c conda-forge python=3.9
+    conda activate napari-env
+    pip install "napari[all]"
     pip install -r requirements.txt
     pip install -e .
 ```
