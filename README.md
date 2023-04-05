@@ -4,10 +4,6 @@
 
 [![License Apache Software License 2.0](https://img.shields.io/pypi/l/cellseg-sribd.svg?color=green)](https://github.com/githubuser/cellseg-sribd/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/cellseg-sribd.svg?color=green)](https://pypi.org/project/cellseg-sribd)
-[![Python Version](https://img.shields.io/pypi/pyversions/cellseg-sribd.svg?color=green)](https://python.org)
-[![tests](https://github.com/githubuser/cellseg-sribd/workflows/tests/badge.svg)](https://github.com/githubuser/cellseg-sribd/actions)
-[![codecov](https://codecov.io/gh/githubuser/cellseg-sribd/branch/main/graph/badge.svg)](https://codecov.io/gh/githubuser/cellseg-sribd)
-[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/cellseg-sribd)](https://napari-hub.org/plugins/cellseg-sribd)
 
 A plugin for cell segmentation
 
