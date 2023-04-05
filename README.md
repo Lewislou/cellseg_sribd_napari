@@ -1,7 +1,5 @@
 # cellseg_sribd_napari
 
-# cellseg-sribd
-
 [![License Apache Software License 2.0](https://img.shields.io/pypi/l/cellseg-sribd.svg?color=green)](https://github.com/githubuser/cellseg-sribd/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/cellseg-sribd.svg?color=green)](https://pypi.org/project/cellseg-sribd)
 
@@ -23,10 +21,16 @@ https://napari.org/stable/plugins/index.html
 
 You can install `cellseg-sribd` via [pip]:
 ```shell
-    pip install -r requirements.txt
-    pip install -e .
+conda create -y -n napari-env -c conda-forge python=3.9
+conda activate napari-env
+pip install "napari[all]"
+cd cellseg_sribd_napari
+pip install -r requirements.txt
+pip install -e .
 ```
 
+##PLugin UI 
+![alt text](https://github.com/Lewislou/cellseg_sribd_napari/tree/main/imgs/ui.png)
 
 
 
@@ -44,18 +48,3 @@ Distributed under the terms of the [Apache Software License 2.0] license,
 
 If you encounter any problems, please [file an issue] along with a detailed description.
 
-[napari]: https://github.com/napari/napari
-[Cookiecutter]: https://github.com/audreyr/cookiecutter
-[@napari]: https://github.com/napari
-[MIT]: http://opensource.org/licenses/MIT
-[BSD-3]: http://opensource.org/licenses/BSD-3-Clause
-[GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
-[GNU LGPL v3.0]: http://www.gnu.org/licenses/lgpl-3.0.txt
-[Apache Software License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
-[Mozilla Public License 2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
-[cookiecutter-napari-plugin]: https://github.com/napari/cookiecutter-napari-plugin
-
-[napari]: https://github.com/napari/napari
-[tox]: https://tox.readthedocs.io/en/latest/
-[pip]: https://pypi.org/project/pip/
-[PyPI]: https://pypi.org/
