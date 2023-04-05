@@ -1,0 +1,2 @@
+[napari.manifest]
+cellseg-sribd = cellseg_sribd:napari.yaml

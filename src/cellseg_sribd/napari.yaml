@@ -1,0 +1,24 @@
+name: cellseg-sribd
+schema_version: 0.1.0
+contributions:
+  commands:
+    - id: cellseg-sribd.widget_wrapper
+      python_name: cellseg_sribd._dock_widget:widget_wrapper
+      title: Create cellseg
+    - id: cellseg-sribd.data.rgb_3D
+      title: Generate RGB 3D sample
+      python_name: cellseg_sribd._sample_data:rgb_3D.tif
+    - id: cellseg-sribd.data.rgb_2D
+      title: Generate RGB 2D sample
+      python_name: cellseg_sribd._sample_data:rgb_2D.png
+  sample_data:
+    - display_name: Cells (3D+2Ch)
+      key: rgb_3D
+      command: cellseg-sribd.data.rgb_3D
+    - display_name: Cells 2D
+      key: rgb_2D
+      command: cellseg-sribd.data.rgb_2D
+  widgets:
+    - command: cellseg-sribd.widget_wrapper
+      display_name: cellseg
+
