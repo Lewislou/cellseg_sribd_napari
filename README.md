@@ -30,11 +30,11 @@ pip install -e .
 ```
 
 ## PLugin UI 
-# Here is the UI. In this plugin, we only use the 'run segmentation' button.
+### Here is the UI. In this plugin, we only use the 'run segmentation' button.
 
 ![alt text](imgs/ui.png)
 
-# A example of inference results:
+### A example of inference results:
 
 ![alt text](imgs/result.png)
 
