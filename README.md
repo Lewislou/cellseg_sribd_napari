@@ -26,8 +26,10 @@ https://napari.org/stable/plugins/index.html
 ## Installation
 
 You can install `cellseg-sribd` via [pip]:
+```shell
     pip install -r requirements.txt
     pip install -e .
+```
 
 
 
