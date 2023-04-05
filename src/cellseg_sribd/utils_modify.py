@@ -14,11 +14,11 @@ from typing import Any, Callable, Dict, List, Mapping, Sequence, Tuple, Union
 import numpy as np
 import torch
 import torch.nn.functional as F
-from stardist_pkg.big import _grid_divisible, BlockND, OBJECT_KEYS#, repaint_labels
-from stardist_pkg.matching import relabel_sequential
-from stardist_pkg import dist_to_coord, non_maximum_suppression, polygons_to_label
+from .stardist_pkg.big import _grid_divisible, BlockND, OBJECT_KEYS#, repaint_labels
+from .stardist_pkg.matching import relabel_sequential
+from .stardist_pkg import dist_to_coord, non_maximum_suppression, polygons_to_label
 #from stardist_pkg import dist_to_coord, polygons_to_label
-from stardist_pkg import star_dist,edt_prob
+from .stardist_pkg import star_dist,edt_prob
 from monai.data.meta_tensor import MetaTensor
 from monai.data.utils import compute_importance_map, dense_patch_slices, get_valid_patch_size
 from monai.transforms import Resize
