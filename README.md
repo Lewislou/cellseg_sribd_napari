@@ -30,7 +30,7 @@ pip install -e .
 ```
 
 ##PLugin UI 
-![alt text](https://github.com/Lewislou/cellseg_sribd_napari/tree/main/imgs/ui.png)
+![alt text](imgs/ui.png)
 
 
 
