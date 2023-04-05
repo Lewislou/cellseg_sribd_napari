@@ -30,7 +30,7 @@ pip install -e .
 ```
 
 ## PLugin UI 
-# Here is the UI. In this plugin, we only use the [run segmentation] button.
+# Here is the UI. In this plugin, we only use the 'run segmentation' button.
 
 ![alt text](imgs/ui.png)
 
@@ -38,12 +38,8 @@ pip install -e .
 
 ![alt text](imgs/result.png)
 
-
-
-## Contributing
-
-Contributions are very welcome. Tests can be run with [tox], please ensure
-the coverage at least stays the same before you submit a pull request.
+## Source codes and training
+The source codes and training process are in [cell-seg](https://github.com/Lewislou/cell-seg/).
 
 ## License
 
