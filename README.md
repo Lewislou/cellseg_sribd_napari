@@ -1,6 +1,6 @@
 # cellseg_sribd_napari
 
-[![License](https://img.shields.io/pypi/l/cellseg-sribd.svg?color=green)](https://github.com/githubuser/cellseg-sribd/raw/main/LICENSE)
+[![License](https://img.shields.io/pypi/l/cellseg-sribd.svg?color=green)](https://github.com/Lewislou/cellseg_sribd_napari/blob/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/cellseg-sribd.svg?color=green)](https://pypi.org/project/cellseg-sribd)
 
 A napari plugin for [Multi-stream Cell Segmentation with Low-level Cues for Multi-modality Images](https://openreview.net/forum?id=G24BybwKe9) - an anatomical segmentation tool for multi-modal cell images
