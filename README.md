@@ -51,7 +51,7 @@ Distributed under the terms of the [BSD-3](http://opensource.org/licenses/BSD-3-
 
 ## Dependencies
 
-cellpose-napari relies on the following excellent packages (which are automatically installed with conda/pip if missing):
+cellseg-sribd relies on the following excellent packages (which are automatically installed with conda/pip if missing):
 - [napari](https://napari.org)
 - [magicgui](https://napari.org/magicgui/)
 
