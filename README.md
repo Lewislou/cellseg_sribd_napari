@@ -7,7 +7,7 @@ A plugin for cell segmentation
 ![cellseg-napari_plugin](imgs/cellseg_sribd_napari.gif)
 ----------------------------------
 
-This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template. Most of the UI design is following the codes of [cellpose-napari].
+This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template. Most of the UI design is following the codes of [cellpose-napari](https://github.com/MouseLand/cellpose-napari/).
 
 <!--
 Don't miss the full getting started guide to set up your new package:
