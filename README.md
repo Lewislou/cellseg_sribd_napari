@@ -43,7 +43,7 @@ There is sample data in the [imgs], or get started with your own images!
 
 
 ## Source codes and training
-The source codes and training process are in [cell-seg](https://github.com/Lewislou/cell-seg/).
+The source codes of cellseg-sribd model and the training process are in [cell-seg](https://github.com/Lewislou/cell-seg/).
 
 ## License
 
