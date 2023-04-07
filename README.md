@@ -4,7 +4,9 @@
 [![PyPI](https://img.shields.io/pypi/v/cellseg-sribd.svg?color=green)](https://pypi.org/project/cellseg-sribd)
 
 A plugin for cell segmentation
+
 ![cellseg-napari_plugin](imgs/cellseg_sribd_napari.gif)
+
 ----------------------------------
 
 This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template. Most of the UI design is following the codes of [cellpose-napari](https://github.com/MouseLand/cellpose-napari/).
