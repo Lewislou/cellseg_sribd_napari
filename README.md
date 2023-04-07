@@ -3,7 +3,7 @@
 [![License Apache Software License 2.0](https://img.shields.io/pypi/l/cellseg-sribd.svg?color=green)](https://github.com/githubuser/cellseg-sribd/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/cellseg-sribd.svg?color=green)](https://pypi.org/project/cellseg-sribd)
 
-A plugin for cell segmentation
+A napari plugin for cellseg-sribd (https://openreview.net/forum?id=G24BybwKe9) - an anatomical segmentation tool for multi-modal cell images
 
 ![cellseg-napari_plugin](imgs/cellseg_sribd_napari.gif)
 
