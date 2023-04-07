@@ -30,13 +30,15 @@ pip install -e .
 ```
 
 ## PLugin UI 
-### Here is the UI. In this plugin, we only use the 'run segmentation' button.
+## Running the software
 
-![alt text](imgs/ui.png)
+```shell
+napari -w cellseg-sribd
+```
 
-### A example of inference results:
+There is sample data in the [imgs], or get started with your own images!
 
-![alt text](imgs/result.png)
+
 
 ## Source codes and training
 The source codes and training process are in [cell-seg](https://github.com/Lewislou/cell-seg/).
@@ -45,6 +47,12 @@ The source codes and training process are in [cell-seg](https://github.com/Lewis
 
 Distributed under the terms of the [Apache Software License 2.0] license,
 "cellseg-sribd" is free and open source software
+
+## Dependencies
+
+cellpose-napari relies on the following excellent packages (which are automatically installed with conda/pip if missing):
+- [napari](https://napari.org)
+- [magicgui](https://napari.org/magicgui/)
 
 ## Issues
 
