@@ -47,8 +47,7 @@ The source codes of cellseg-sribd model and the training process are in [cellseg
 
 ## License
 
-Distributed under the terms of the [Apache Software License 2.0] license,
-"cellseg-sribd" is free and open source software
+Distributed under the terms of the [BSD-3](http://opensource.org/licenses/BSD-3-Clause) license,"cellseg-sribd" is free and open source software
 
 ## Dependencies
 
