@@ -21,7 +21,7 @@ https://napari.org/stable/plugins/index.html
 
 ## Installation
 
-You can install `cellseg-sribd` via [pip]:
+You can install `cellseg-sribd` via following commands:
 ```shell
 conda create -y -n napari-env -c conda-forge python=3.9
 conda activate napari-env
