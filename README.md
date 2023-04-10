@@ -58,7 +58,7 @@ If you encounter any problems, please [file an issue] along with a detailed desc
 
 
 ## Citation
-If you find this research useful in your work, please acknowledge it appropriately and cite the paper:
+If you find this software useful in your work, please acknowledge it appropriately and cite the paper:
 ```bibtex
 @misc{
 lou2022multistream,
