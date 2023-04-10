@@ -56,3 +56,15 @@ cellseg-sribd relies on the following excellent packages (which are automaticall
 
 If you encounter any problems, please [file an issue] along with a detailed description.
 
+
+## Citation
+If you find this research useful in your work, please acknowledge it appropriately and cite the paper:
+```bibtex
+@misc{
+lou2022multistream,
+title={Multi-stream Cell Segmentation with Low-level Cues for Multi-modality Images},
+author={WEI LOU and Xinyi Yu and Chenyu Liu and Xiang Wan and Guanbin Li and Siqi Liu and Haofeng Li},
+year={2022},
+url={https://openreview.net/forum?id=G24BybwKe9}
+}
+```
